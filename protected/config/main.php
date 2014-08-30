@@ -90,25 +90,25 @@ return array(
 		'widgetFactory' => array(
 						'widgets' => array(
 								'CListView' => array(
-	'ajaxUpdate'=>false,
-		'template'=>'{items}{pager}',
-        'pager'=>array(
-            'header'         => '',
-            'htmlOptions' => array('class'=>'pagination hidden-xs clearfix'),
-            'cssFile' => false,
-            'firstPageLabel' => '&laquo;&laquo;',
-            'prevPageLabel'  => '&laquo;',
-            'nextPageLabel'  => '&raquo;',
-                                                'lastPageLabel'  => '&raquo;&raquo;',
-                                                'lastPageCssClass' => 'hidden',
-                                                'firstPageCssClass' => 'hidden',	
-                                                'selectedPageCssClass' => 'active',
-                                                ),
-                                'pagerCssClass' => 'text-left',
+										'ajaxUpdate'=>false,
+										'template'=>'{items}{pager}',
+										'pager'=>array(
+												'header'         => '',
+												'htmlOptions' => array('class'=>'pagination hidden-xs clearfix'), //bootstrap
+												'cssFile' => false,
+												'firstPageLabel' => '&laquo;&laquo;',
+												'prevPageLabel'  => '&laquo;',
+												'nextPageLabel'  => '&raquo;',
+												'lastPageLabel'  => '&raquo;&raquo;',
+												'lastPageCssClass' => 'hidden',
+												'firstPageCssClass' => 'hidden',	
+												'selectedPageCssClass' => 'active',
+												),
+										'pagerCssClass' => 'text-left',
 										),
 								),
 						),
-	),
+		),
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
